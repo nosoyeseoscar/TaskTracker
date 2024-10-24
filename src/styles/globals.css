@@ -25,3 +25,21 @@ body {
     text-wrap: balance;
   }
 }
+
+.is-relative {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  display: block;
+  bottom: 1rem;
+  right: 0.5rem;
+
+  user-select: none;
+  cursor: pointer;
+}
+
+.input-task {
+  padding-right: 2.5rem;
+}
